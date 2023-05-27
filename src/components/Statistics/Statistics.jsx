@@ -1,4 +1,4 @@
-export const Statistics = ({feedbacks, total, positivePercentage}) => (
+export const Statistics = ({ feedbacks, total, positivePercentage }) => (
   <div>
     <p>Good: {feedbacks.good}</p>
     <p>Neutral: {feedbacks.neutral}</p>
