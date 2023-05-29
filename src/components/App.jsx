@@ -20,7 +20,7 @@ export default function App () {
    return (
     <div className={css.container}>
       <Section title="Please leave feedback">
-        <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={handleFeedback} />
+        <FeedbackOptions options={Object.keys(feedback)} onLeaveFeedback={handleFeedback} />
       </Section>
       <Section title="Statistics">
         {total > 0 ? (
